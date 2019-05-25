@@ -1,8 +1,7 @@
 # Task11_Intern
 LSTM 
 
-1. Initial data
-raw_dataset
+1. Initial data is in raw_dataset file
   - test_para.csv
   - test_ques.csv
   - train_label.csv
@@ -17,3 +16,4 @@ raw_dataset
 - model.py
 - train.py
 - test.py
+- step0_data_preprocessing.ipynb
