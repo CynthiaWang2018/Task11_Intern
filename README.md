@@ -9,10 +9,10 @@ raw_dataset
   - train_para.csv
   - train_ques.csv
 
-2. assignment
+2. Assignment
 - problem_description.jpg
 
-3. code
+3. Code
 - load_data.py
 - model.py
 - train.py
