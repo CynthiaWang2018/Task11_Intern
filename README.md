@@ -2,7 +2,7 @@
 LSTM 
 
 1. Initial data
-ram_dataset
+raw_dataset
   - test_para.csv
   - test_ques.csv
   - train_label.csv
