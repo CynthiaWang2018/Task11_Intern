@@ -10,7 +10,7 @@ raw_dataset
   - train_ques.csv
 
 2. assignment
-problem_description.jpg
+- problem_description.jpg
 
 3. code
 - load_data.py
