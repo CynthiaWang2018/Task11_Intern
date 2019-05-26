@@ -23,6 +23,7 @@ LSTM
 x [32, 10]  h [32, 3]
 
 x.unsqueeze(1)  [32, 1, 10]
+
 h.Linear(3, 256)  [32, 256]
 
 h.unsqueeze(0) [1, 32, 256]
@@ -40,7 +41,9 @@ lstm(x, (h, h))   # input_size, hidden_dim, num_layers
 				  # 3,          32,    256
 
 r_out, (h_n, h_c)
+
 r_out [32, 8, 256]
+
 r_out[:, -1, :]   [32, 256]
 
 r_out[:,-1,:].Linear(256, 1)  [32, 1]
