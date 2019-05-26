@@ -18,7 +18,7 @@ LSTM
 - test.py
 - step0_data_preprocessing.ipynb
 
-
+4. Framework
 
 x [32, 10]  h [32, 3]
 
@@ -30,9 +30,9 @@ h.unsqueeze(0)-> [1, 32, 256]
 
 h.expand().contiguous()-> [3, 32, 256]  
 
-x.conv1(1, 128)  [32, 128, 8]
+x.conv1(1, 128) -> [32, 128, 8]
 
-x.permute(0, 2, 1) [32, 8, 128]   #相当于一句话有8个单词，每个单词表示成128维向量
+x.permute(0, 2, 1)-> [32, 8, 128]   #相当于一句话有8个单词，每个单词表示成128维向量
 
 lstm(x, (h, h))   
 
