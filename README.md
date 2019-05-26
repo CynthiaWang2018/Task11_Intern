@@ -38,6 +38,7 @@ lstm(x, (h, h))   # input_size, hidden_dim, num_layers
 				  # h
 				  # num_layers, batch, output_size
 				  # 3,          32,    256
+
 r_out, (h_n, h_c)
 r_out [32, 8, 256]
 r_out[:, -1, :]   [32, 256]
